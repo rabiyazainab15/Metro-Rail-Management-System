@@ -257,7 +257,7 @@ void showCoachesForward() {
     cout << "\n  Coaches (Front to Rear):\n";
     Coach* c = coachHead;
     while (c != NULL) {
-        cout << "  Coach " << c->number << "  |  Capacity: " << c->capacity << "\n";
+        cout << "  Coach " << c->number << "  |   new Capacity: " << c->capacity << "\n";
         c = c->next;
     }
 }
@@ -267,7 +267,7 @@ void showCoachesBackward() {
     cout << "\n  Coaches (Rear to Front):\n";
     Coach* c = coachTail;
     while (c != NULL) {
-        cout << "  Coach " << c->number << "  |  Capacity: " << c->capacity << "\n";
+        cout << " new  Coach " << c->number << "  |  Capacity: " << c->capacity << "\n";
         c = c->prev;
     }
 }
